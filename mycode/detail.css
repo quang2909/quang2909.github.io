@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+span{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(153, 153, 153);
+}
+.warranty{
+    width: 40%;
+}
+.expert{
+    width: 40%;
+}
+.auth{
+    width: 40%;
+}
+h2{
+    color: white;
+    padding-top: 20px;
+}
+p, a{
+    color: rgb(255, 0, 0);
+    padding-top: 20px;
+}
+.find{
+    align-items: center;
+    padding: 40px;
+}
+li{
+    margin-bottom: 20px;
+}
+ul{
+    padding-top: 20px;
+}
+a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.info-product {
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.mangve{
+    background-color: brown;
+    border-radius: 10px;
+}

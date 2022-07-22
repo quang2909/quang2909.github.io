@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#header-content{
+    padding: 10px 0;
+    width: 100%;
+    margin: auto;
+}
+#search{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    background-color: black ;
+}
+#search i{
+    padding: 0 20px;
+}
+#search a{
+    color: #8e8e8e;
+}
+#search input{
+    width: 300px;
+    background-color: #f3f3f3;
+    border: 1px solid black;
+    padding: 2px 11px;
+    font-size: 13px;
+    border: 1px solid #ebebeb;
+    height: 30px;
+}
+#main-nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.logo{
+    margin: auto;
+    align-items: center;
+}
+ul, li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+}
+.banner{
+    width: 100%;
+}
+.products {
+    width: 80%;
+    margin: auto;
+}
+.products .title {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.title p{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(138, 4, 4);
+    margin-right: 30px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.title :before, .title:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #b9b4b4;
+    margin: auto;
+}
+.list-items{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.items{
+    width: 20%;
+    margin: 20px;
+}
+.items a{
+    color: black;
+}
+.rolex{
+    color: black;
+    
+}
+.footer{
+    width: 1920px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(153, 153, 153);
+}
+.warranty{
+    width: 60%;
+    text-align: center;
+}
+.expert{
+    width: 60%;
+    text-align: center;
+}
+.auth{
+    width: 60%;
+    text-align: center;
+}
+h2{
+    color: white;
+    padding-top: 20px;
+}
+p, a{
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+}
+.find{
+    align-items: center;
+    padding: 40px;
+}
+li{
+    margin-bottom: 20px;
+}
+ul{
+    padding-top: 20px;
+}
+a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.fas{
+    align-items: center;
+}
